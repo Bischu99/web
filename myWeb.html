@@ -27,7 +27,7 @@
             <img class="Con" src="C:\Users\IOT\Desktop\web_image\Place Your image Here (Double Click to Edit).png">
             <img class="Con cheap" src="C:\Users\IOT\Desktop\web_image\Design\Shape2.png">
             <img class="GameStart" onclick="GameStart();" src="C:\Users\IOT\Desktop\web_image\Button.png">
-            <input class="File" type="file" id="FileInput"/>
+            <input class="File" type="file" id="FileInput" accept="image/*,.pdf" multiple />
             
             <img class="flavors" src="C:\Users\IOT\Desktop\web_image\25 flavors.png">
             <img class="flavors flavorsBox" src="C:\Users\IOT\Desktop\web_image\Design\Shape1.png">
@@ -54,10 +54,8 @@
             <img src="C:\Users\IOT\Desktop\web_image\Design\Shape16.png">
             <img src="C:\Users\IOT\Desktop\web_image\Design\Shape17.png">
             <img src="C:\Users\IOT\Desktop\web_image\Design\Shape18.png"> -->
-
-
-
-            
+            <input type="button" value=" 이미지 생성" onclick="make()"> <input type="button" value="이미지 전체 제거" onclick="del()">
+            <div id="board" style="width: 720;"></div>
         </div>
 
     </body>
