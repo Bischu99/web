@@ -1,5 +1,5 @@
 function openWin(){
-    location.href="http://naver.com";
+    location.href="file:///C:/Users/IOT/Desktop/web/banillra%20javascript/web/myWeb.html";
 }
 function SNS(SnsLink){
     switch (SnsLink){
@@ -23,13 +23,7 @@ function GameStart(){
     console.log('파일명 : ' + fileName);
     console.log('파일 확장자 : ' + fileExt);
     console.log('파일 크기 : ' + fileSize);
-
-    
-    // var image1=new image()
-    // image1.src=filePath;
-    // var newTEST = document.createElement("img");
-
-    // newTEST.innerHTML = "";
+    //File input Test 
 }
 
 function make(){
@@ -37,15 +31,12 @@ function make(){
 
     var rnd = Math.round(Math.random() * 15) + 1;
     rnd == 10 || rnd == 11 ? rnd = Math.round(Math.random()* 10) : rnd == 12 ? rnd = Math.round(Math.random()* 10) : rnd ;
-    
-    // 10 11 12
 
     img.onclick = function(){document.getElementById('board').removeChild(this)};
-    // img.src = "C:\\Users\IOT\Desktop\web_image\Design\Shape" + rnd +'.png';
     img.src = 'C:/Users/IOT/Desktop/web_image/Design/Shape' + rnd + '.png'; // 이미지 경로 설정 (랜덤)
     img.style.cursor = 'pointer'; 
     document.getElementById('board').appendChild(img);
-}
+}// JS add Element Test 
 function del(){
     document.getElementById('board').innerHTML = "";
 }
