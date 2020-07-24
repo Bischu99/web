@@ -1,0 +1,96 @@
+body{
+    background-color: orange;
+    
+}
+
+.BackImg{
+    width: 100%; height: 80%;
+    margin-top: 1%;
+    position: absolute;
+    z-index: -1;
+    
+    
+}
+.Logo{
+    width: 15%; height: 6%;
+    margin-top: 50px;
+    margin-left: 6%;
+    margin-right: 30%;
+    /* max-width: 100px;
+    max-height: 100px; */
+    z-index: 1;
+}
+.TextButton{
+    width: 8%; height: 4%;
+    margin-left: 1%;
+    z-index: 2;
+}
+
+.BigText{
+    margin-top: 2% ;
+    margin-left: 30%;;
+    width: 50%; height: 50%;
+
+}
+
+.RegularText{
+    width: 60%; height: 80%;
+    margin-top: 1% ;
+    margin-left: 23%;;
+
+}
+
+.Con{
+    width: 30%; height: 50%;
+    margin-top: 5% ;
+    margin-left: 35%;;
+    z-index: 4;
+} 
+.cheap{
+    position: absolute;
+    width: 7%; height: 7%;
+    margin-top: 1%;
+    margin-left: -35%;
+}
+.Yes_{
+    position: absolute;
+    width: 6%; height: 6%;
+    margin-top: 10%;
+    margin-left: 14%;
+}
+.Box{
+    margin-top: 9%;
+    margin-left: 11%;
+    width: 13%; height: 13%;
+
+}
+.flavors{
+    position: absolute;
+    width: 12%; height: 5%;
+    margin-top: 10%;
+    margin-left: 16%;
+}
+.flavorsBox{
+    width: 20%; height: 19%;
+    margin-left: 12%;
+    margin-top: 6%;
+}
+.SNS{
+    margin-top: -10%;
+    width: 4%; height: 4%;
+    
+}
+.margin-left{
+    margin-left: 5%;
+}
+.GameStart{
+    
+    width: 15%; height: 15%;
+    margin-left: -23%;
+    padding-bottom: 5%;
+}
+.File{
+    width: 8%; height: 0%;
+    margin-left: -23%;
+    padding-bottom: 5%;
+}
